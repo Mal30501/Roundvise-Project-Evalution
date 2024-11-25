@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^404/?$ errors/404.html [NC]
+
+# Enable Error Documents
+# (404,File Not Found) | (403,Forbidden) | (500,Internal Server Error)
+ErrorDocument 403 '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>403 Forbidden</title></head><p>Sorry, access to this page is forbidden.</p></body></html>'
