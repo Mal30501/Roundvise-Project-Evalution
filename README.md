@@ -53,3 +53,14 @@ Built using **PHP** and **MySQL**, it incorporates **role-based access control**
 
 ## Project Structure
 
+├── PHPMailer-master/ # PHPMailer library for email notifications
+├── admin/ # Admin panel for managing exams and results
+├── assets/ # CSS, JS, and image assets
+├── jury/ # Jury/examiner panel for evaluation
+├── captcha.php # CAPTCHA verification script
+├── config.php # Database connection and configuration file
+├── demo.php # Test/demo script for functionality
+├── error403.html # Custom 403 access restriction page
+├── fpdf.php # PDF generation for certificates
+├── certificate.jpg/.png # Certificate template assets
+├── .htaccess # Access restriction and security configuration
